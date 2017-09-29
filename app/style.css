@@ -1,0 +1,43 @@
+.icecreamshop{
+	width: 100%;
+
+}
+.panel{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#flavorPanel{
+	display: none;
+	width: 250px;
+	height: auto;
+}
+
+#seasonalPanel{
+	/*display: none;*/
+}
+#toppingsPanel{
+	display: none;
+}
+#servingPanel{
+	display: none;
+}
+
+}
+
+
+.buttons{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+h1 {
+	width: auto;
+	text-align: center;
+
+}
+

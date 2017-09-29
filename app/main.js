@@ -36,14 +36,13 @@ function displayPanel() {
 	//console.log('Entering checkPanel function')
 
  	if (this.innerHTML ==='Flavor Option'){
- 		console.log("Entering flavor selection")
+ 		//console.log("Entering flavor selection")
  		//display flavor panel when flavor button is pushed
  		flavorPanel.style.display = 'block';
 
  		// place menu items in panel
- 		console.log(this.getElementById(''));
+ 		//console.log(this.getElementById(''));
  		//createList(flavlist);
- 		console.log(flavlist);
 
 	 	
 
@@ -52,21 +51,21 @@ function displayPanel() {
  		//display seasonal panel when seasonal button is pushed
  		
  		seasonalPanel.style.display = 'block';
- 		console.log('Seasonal');
+ 		//console.log('Seasonal');
 	 	//console.log(this);
 
  	}else if (this.innerHTML ==='Toppings') {
  		//display toppings panel when toppings button is pushed
 
  		toppingsPanel.style.display = 'block';
- 		console.log('Topping');
+ 		//console.log('Topping');
 	 	//console.log(this);
 
  	}else if (this.innerHTML ==='Serving Option') {
  		//display serving panel when serving button is pushed
 
  		servingPanel.style.display = 'block';
- 		console.log('Serving');
+ 		//console.log('Serving');
 	 	//console.log(this);
 
  	}
@@ -77,7 +76,7 @@ function displayPanel() {
  function createList(name) {
 
  	// get the appropriate array form product.js based on selected checkPanel()
- 	
+
  	var div = name;
  	var ul = document.createElement('ul');
  	for (i in name){

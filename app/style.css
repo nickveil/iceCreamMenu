@@ -1,10 +1,13 @@
+/**{
+	border: 1px solid #000;
+}*/
+
 .icecreamshop{
 	width: 100%;
 
 }
 body{
 
-	background:https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/640/360/90/wdpromedia.disney.go.com/media/wdpro-assets/gallery/dining/downtown-disney/ghirardelli-soda-fountain/ghirardelli-soda-fountain-gallery04.jpg?30122013115040;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -19,28 +22,47 @@ body{
 }
 
 .panel-body{
-	height: 200px;
+	height: 100px;
 
+}
+
+.panel-heading{
+	height: 100%
+	color: 	#d2c7bb;
+}
+
+.btn-info{
+	width: 100%;
+	color: #836852;
+	background-color: #BC8F6C;
+
+}
+
+.btn-lg_{
+	color: #BC8F6C;
 }
 
 #flavorPanel{
 	display:none;
-	color: #ccc;
+	height: 100px;
 }
 #seasonalPanel{
 	display:none;
+	height: 100px;
 }
 #toppingsPanel{
 	display:none;
+	height: 100px;
 }
 #servingPanel{
 	display:none;
+	height: 100px;
 }
 
 }
 
 .btn{
-	
+
 }
 
 .buttons{
@@ -54,8 +76,15 @@ body{
 ul{
 	font-family: 'Rye', cursive;
 	color: #836852;
+	font-size: 15px;
+	margin-left: 5px;
+	max-width: 100%;
 
 
+}
+
+li{
+	margin-left: 0px;
 }
 
 h1 {

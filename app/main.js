@@ -17,50 +17,54 @@ document.onreadystatechange = function() {
 };
 
 function displayPanel() {
-	//console.log('Entering displayPanel');
+	console.log('Entering displayPanel function');
 	//Listen for button to be clicked then display pannel
 	for (var i = 0; i < buttons.length; i++ ){
-		buttons[i].addEventListener('click', checkPanel);
-
+		var buttonPushed = buttons[i].addEventListener('click', checkPanel);
+		//console.log(buttonPushed);
 	}
 
  }
 
  function checkPanel() {
+ 	//var butLabel= this.innerHTML;
+ 	//console.log(butLabel);
 	//console.log('Entering checkPanel function')
 
- 	if (this.classList.contains('flavor')){
+ 	if (this.innerHTML ==='Flavor Option'){
+ 		console.log("Entering flavor selection")
+
  		//display flavor panel when flavor button is pushed
 
  		flavorPanel.style.display = 'block';
  		console.log('Flavor');
-	 	console.log(this);
+	 	
 
 
- 	}else if (this.classList.contains('seasonal')){
+ 	}else if (this.innerHTML ==='Seasonal Option'){
  		//display seasonal panel when seasonal button is pushed
  		
  		seasonalPanel.style.display = 'block';
  		console.log('Seasonal');
-	 	console.log(this);
+	 	//console.log(this);
 
- 	}else if (this.classList.contains('toppings')) {
+ 	}else if (this.innerHTML ==='Toppings') {
  		//display toppings panel when toppings button is pushed
 
  		toppingsPanel.style.display = 'block';
  		console.log('Topping');
-	 	console.log(this);
+	 	//console.log(this);
 
- 	}else if (this.classList.contains('serving')) {
+ 	}else if (this.innerHTML ==='Serving Option') {
  		//display serving panel when serving button is pushed
 
  		servingPanel.style.display = 'block';
  		console.log('Serving');
-	 	console.log(this);
+	 	//console.log(this);
 
  	}
 
- 	console.log(this);
+ 	//console.log(this);
  }
 
 

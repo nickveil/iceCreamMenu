@@ -9,19 +9,17 @@
 }
 
 #flavorPanel{
-	display: none;
-	width: 250px;
-	height: auto;
+	display:none;
 }
 
 #seasonalPanel{
-	/*display: none;*/
+	display:none;
 }
 #toppingsPanel{
-	display: none;
+	display:none;
 }
 #servingPanel{
-	display: none;
+	display:none;
 }
 
 }

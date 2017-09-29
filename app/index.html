@@ -23,7 +23,7 @@
 
 
 	<h1>Ice Cream Shop</h1>
-<div class="container">
+<!-- <div class="container">
 	<div class="buttons">
 		
 		<button class="btn button btn-primary flavor btn-lg" id="flavor">Ice Cream Flavor</button>
@@ -33,41 +33,45 @@
 		<button class="btn button btn-info toppings btn-lg" id="toppings">Toppings</button>
 
 		<button class="btn button btn-warning serving btn-lg" id="serving">Serving Options</button>
-	</div>
+	</div> -->
 
 	<div class="panel">
 
-		<div class="panel panel-primary flavorPanel">
-		  <div class="panel-heading">What Flavor?</div>
-		  <div class="panel-body">
-		    <p src="">Flavors</p>
+		<div class="panel panel-info">
+		  <div class="panel-heading">
+		    <button class="btn button btn-info btn-lg" id="flavor">Flavor Option</button>
+		  </div>
+		  <div class="panel-body" id="flavorPanel">
+		    <p src="">Flavor</p>
 		  </div>
 		</div>
 
-		<div class="panel panel-info" id="seasonalPanel">
+		<div class="panel panel-info">
 		  <div class="panel-heading">
-		    <h3 class="panel-title">Seasonal Option</h3>
+		    <button class="btn button btn-info btn-lg" id="seasonal">Seasonal Option</button>
 		  </div>
-		  <div class="panel-body">
+		  <div class="panel-body"  id="seasonalPanel">
 		    <p src="">Seasonal</p>
 		  </div>
 		</div>
 
-		<div class="panel panel-info" id="toppingsPanel">
-		  <div class="panel-heading">What's on Top?</div>
-		  <div class="panel-body">
-		    <p src="">Topping</p>
+		<div class="panel panel-info">
+		  <div class="panel-heading">
+		    <button class="btn button btn-info seasonal btn-lg" id="topping">Toppings</button>
+		  </div>
+		  <div class="panel-body" id="toppingsPanel">
+		    <p src="">Toppings</p>
 		  </div>
 		</div>
 
-		<div class="panel panel-warning" id="servingPanel">
+		<div class="panel panel-info">
 		  <div class="panel-heading">
-		    <h3 class="panel-title">Best Served</h3>
+		    <button class="btn button btn-info btn-lg" id="serving">Serving Option</button>
 		  </div>
-		  <div class="panel-body">
+		  <div class="panel-body" id="servingPanel">
 		    <p src="">Serving</p>
 		  </div>
-		</div>	
+		</div>
 
 	</div>
 

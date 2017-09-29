@@ -1,7 +1,11 @@
 //Globals
  
 var buttons = document.getElementsByClassName('button');
-var flavorPanel = document.getElementById('flavorPanel');
+var flavlist=document.getElementById('flavorpanel');
+var seaslist=document.getElementById('seasonalPanel');
+var topplist=document.getElementById('toppingPanel');
+var servlist=document.getElementById('servingPanel');
+// var flavorPanel = document.getElementById('flavorPanel');
 
 
 
@@ -33,11 +37,14 @@ function displayPanel() {
 
  	if (this.innerHTML ==='Flavor Option'){
  		console.log("Entering flavor selection")
-
  		//display flavor panel when flavor button is pushed
-
  		flavorPanel.style.display = 'block';
- 		console.log('Flavor');
+
+ 		// place menu items in panel
+ 		console.log(this.getElementById(''));
+ 		//createList(flavlist);
+ 		console.log(flavlist);
+
 	 	
 
 
@@ -66,5 +73,21 @@ function displayPanel() {
 
  	//console.log(this);
  }
+
+ function createList(name) {
+
+ 	// get the appropriate array form product.js based on selected checkPanel()
+ 	
+ 	var div = name;
+ 	var ul = document.createElement('ul');
+ 	for (i in name){
+ 		var li = document.createElement('li'), content = document.createTextNode(fruits);
+ 		li.appendChild(li);
+ 	}
+ 	div.appendChild(ul);
+ 	
+ }
+
+
 
 

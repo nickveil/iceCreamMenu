@@ -2,16 +2,31 @@
 	width: 100%;
 
 }
+body{
+
+	background:https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/640/360/90/wdpromedia.disney.go.com/media/wdpro-assets/gallery/dining/downtown-disney/ghirardelli-soda-fountain/ghirardelli-soda-fountain-gallery04.jpg?30122013115040;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .panel{
-	display: inline-block;
+	color: #ccc;
+	width: 200px;
+	height: 170px;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
+
+}
+
+.panel-body{
+	height: 200px;
+
 }
 
 #flavorPanel{
 	display:none;
+	color: #ccc;
 }
-
 #seasonalPanel{
 	display:none;
 }
@@ -24,18 +39,30 @@
 
 }
 
+.btn{
+	
+}
 
 .buttons{
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
+	text-align: center;
 }
 
+ul{
+	font-family: 'Rye', cursive;
+	color: #836852;
 
+
+}
 
 h1 {
 	width: auto;
 	text-align: center;
-
+	font-family: 'Rye', cursive;
+	color: #efecea;
+	font-size: 60px;
 }
 

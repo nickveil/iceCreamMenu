@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.16.0",
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "express": "^4.16.0"
   }
 }
